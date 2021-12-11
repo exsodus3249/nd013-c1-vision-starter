@@ -145,16 +145,24 @@ This section should contain a brief description of the project and what we are t
 
 ### Set up
 This section should contain a brief description of the steps to follow to run the code for this repository.
-
+1. implementation on visualizaion images with gt boxes 
+2. implementation to split dataset into 3 parts as train, validation, test.
+3. downloaded pretrained model and training with splited training dataset.
+4. added augmentation option to pipeline config.
+5. checked values and tried to add more options to checking more values.
 ### Dataset
 #### Dataset analysis
 This section should contain a quantitative and qualitative description of the dataset. It should include images, charts and other visualizations.
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
-
+-- I'd tried to focus on loss value getting lower
 ### Training
 #### Reference experiment
 This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
 
 #### Improve on the reference
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
+1. first attempt's total loss value : 4.664335
+2. random rgb to grey : 0.2
+3. random adjust brightness : 0.3
+4. can't go further cause of limited space on workspace when everytime execute training even confirmed its loss value getting lower.
