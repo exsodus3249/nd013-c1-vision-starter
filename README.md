@@ -165,4 +165,5 @@ This section should highlight the different strategies you adopted to improve yo
 1. first attempt's total loss value : 4.664335
 2. random rgb to grey : 0.2
 3. random adjust brightness : 0.3
-4. can't go further cause of limited space on workspace when everytime execute training even confirmed its loss value getting lower.
+4. couldn't go further cause of limited space on workspace when everytime execute training even confirmed its loss value getting lower.
+5. loss value was approximately 2.5 around
