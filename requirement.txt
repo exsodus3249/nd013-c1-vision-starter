@@ -1,0 +1,5 @@
+## tfrecord datasets.
+## implementation of displaying images with bounding boxes.
+## implementation of splitting datasets into train, validation and test.
+## pretrained model
+## config file including train augmentation options
